@@ -62,7 +62,7 @@ function App() {
         <Col><Button className="sty" variant="secondary" onClick={() => handleOnClick("3")}>3</Button></Col>
         <Col><Button className="sty star" variant="info" onClick={() => handleOnClick("+")}>+</Button></Col>
       </Row><Row>
-        <Col><Button className="sty" variant="secondary" onClick={()=>handleOnClick("%")}>%</Button></Col>
+        <Col><Button className="sty" variant="secondary" onClick={()=> handleOnClick("%")}>%</Button></Col>
         <Col><Button className="sty" variant="secondary" onClick={() => handleOnClick("0")}>0</Button></Col>
         <Col><Button className="sty star" variant="secondary" onClick={() => handleOnClick(".")}>.</Button></Col>
         <Col><Button className="sty star" variant="success" onClick={showAnswer}>=</Button></Col>
