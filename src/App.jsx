@@ -48,24 +48,24 @@ function App() {
         <Col><Button className="sty" variant="secondary" onClick={() => handleOnClick("7")}>7</Button></Col>
         <Col><Button className="sty" variant="secondary" onClick={() => handleOnClick("8")}>8</Button></Col>
         <Col><Button className="sty" variant="secondary" onClick={() => handleOnClick("9")}>9</Button></Col>
-        <Col><Button className="sty" variant="info" onClick={() => handleOnClick("*")}>*</Button></Col>
+        <Col><Button className="sty star" variant="info" onClick={() => handleOnClick("*")}>*</Button></Col>
         </Row>
         <Row>
         <Col><Button className="sty" variant="secondary" onClick={() => handleOnClick("4")}>4</Button></Col>
         <Col><Button className="sty" variant="secondary" onClick={() => handleOnClick("5")}>5</Button></Col>
         <Col><Button className="sty" variant="secondary" onClick={() => handleOnClick("6")}>6</Button></Col>
-        <Col><Button className="sty" variant="info" onClick={() => handleOnClick("-")}>-</Button></Col>
+        <Col><Button className="sty star" variant="info" onClick={() => handleOnClick("-")}>-</Button></Col>
         </Row>
         <Row>
         <Col><Button className="sty" variant="secondary" onClick={() => handleOnClick("1")}>1</Button></Col>
         <Col><Button className="sty" variant="secondary" onClick={() => handleOnClick("2")}>2</Button></Col>
         <Col><Button className="sty" variant="secondary" onClick={() => handleOnClick("3")}>3</Button></Col>
-        <Col><Button className="sty" variant="info" onClick={() => handleOnClick("+")}>+</Button></Col>
+        <Col><Button className="sty star" variant="info" onClick={() => handleOnClick("+")}>+</Button></Col>
       </Row><Row>
         <Col><Button className="sty" variant="secondary">%</Button></Col>
         <Col><Button className="sty" variant="secondary" onClick={() => handleOnClick("0")}>0</Button></Col>
-        <Col><Button className="sty" variant="secondary" onClick={() => handleOnClick(".")}>.</Button></Col>
-        <Col><Button className="sty" variant="success" onClick={showAnswer}>=</Button></Col>
+        <Col><Button className="sty star" variant="secondary" onClick={() => handleOnClick(".")}>.</Button></Col>
+        <Col><Button className="sty star" variant="success" onClick={showAnswer}>=</Button></Col>
       </Row>
     </Container>
     </div>
