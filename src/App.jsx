@@ -7,28 +7,27 @@ import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 
 function App() {
-  const [input, setInput] = useState("")
+  
+ const [input, setInput] = useState("");
 
   const handleOnChange = (event) => {
     setInput(event.target.value);
-  }
+  };
   const handleOnClick = (input) => {
-    setInput((prev)=> prev+ input)
-  }
-  
+    setInput((prev) => prev + input);
+  };
+
   const showAnswer = () => {
     try {
-      const answer = eval(input)
-      setInput(answer.tostring())
-      
-      
+      const ans = eval(input);
+      setInput(ans.toString());
     } catch (error) {
-      setInput("Error")
+      setInput("Error");
     }
-  }
+  };
   const cutDigit = (prev) => {
-    setInput((prev)=> prev.slice(0, -1) )
-  }
+    setInput((prev) => prev.slice(0, -1));
+  };
 
   return (
     <div className="cont">
